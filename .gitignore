@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+
+# Environment & Secrets
+.env
+.env.*
+
+
+# Temporary File Uploads
+uploads/
+*.csv
+*.xlsx
+*.xls
+
+# Logs & Debug
+logs/
+*.log
+
+# Coverage & Testing Output
+coverage/
+.nyc_output/
+
+# IDEs & System Files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Temporary Files
+Thumbs.db

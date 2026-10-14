@@ -1,0 +1,8 @@
+{
+  "restartable": "rs",
+  "ignore": [".git", "node_modules/**/node_modules", "uploads/**", "dist/**"],
+  "watch": ["src"],
+  "ext": "ts,json",
+  "exec": "node --loader ts-node/esm --experimental-specifier-resolution=node ./src/server.ts",
+  "exitcrash": true
+}
